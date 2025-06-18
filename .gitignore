@@ -1,0 +1,54 @@
+# Pythonのキャッシュファイルやバイトコード
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 仮想環境フォルダ（プロジェクトによって名前違うから要確認）
+venv/
+env/
+.karaoke-env/
+.karaoke-env-old/
+
+# IDEやエディタ関連
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS固有のファイル
+.DS_Store
+Thumbs.db
+
+# 環境変数ファイル（パスワードやキーを入れる）
+.env
+.env.*
+
+# Googleサービスアカウントの秘密鍵ファイルなど
+service-account.json
+
+# ログファイル
+*.log
+
+# その他
+*.sqlite3
+*.db
+
+# Streamlit secrets
+.secrets.toml
+secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+env/
+venv/
+karaoke-env/
+karaoke-env-old/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCodeや他ツール
+.vscode/
