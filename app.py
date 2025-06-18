@@ -120,7 +120,7 @@ if page == "記録入力":
 
             worksheet.append_row(row)
             st.success('データをGoogle Sheetsに記録しました！')
-            raise RerunException()
+            st.experimental_rerun()
 
 
 # --- これまでの記録 ---
